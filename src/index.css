@@ -11,3 +11,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.flex{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 39% 59%;
+  justify-content: space-between;
+  align-items: center;
+}
+.grid_inside{
+  display: grid;
+  grid-template-columns: 49% 49%;
+  justify-content: space-between;
+  align-items: center;
+}
+input{
+  width: 90%;
+  padding: 0.3rem 0rem;
+  border:2px solid rgb(185, 179, 179);
+  border-radius: 0.25rem;
+}
+
+label{
+  margin: 0rem 1rem;
+}
+div{
+  margin: 0.2rem 0rem;
+}
+span{
+  width: 30%;
+}
+.flex_start{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.grid_last{
+  display:grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading{
+  font-weight: 600;
+}
+.button{
+  display: flex;
+  justify-content: end;
+}
+.button>div>button{
+  border: none;
+  margin: 0rem 1rem;
+  padding: 0.5rem 2.5rem;
+font-weight: 600;
+font-size: 17px
+
+}
+.button>div>button:nth-child(2){
+background-color: green;
+}
+select{
+  width: 50%;
+  padding: 0.3rem 0rem;
+  border:2px solid rgb(185, 179, 179);
+  border-radius: 0.25rem;
+}
